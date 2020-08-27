@@ -31,10 +31,11 @@ header {
 	align-items: center;
 }
 .navigation {
-	width: 560px;
+	width: 350px;
 	display: flex;
 	align-content: center;
 	justify-content: space-between;
+	margin: 0 400px 0 0;
 }
 .nav-a a{
 	font-size: 18px;

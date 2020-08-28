@@ -39,6 +39,7 @@ header {
 }
 .nav-a a{
 	font-size: 18px;
+	font-family:  'BPG Nino Mtavruli'; 
 	color:#A0A2B1 ;
 }
 .nav-a a:hover {
@@ -46,6 +47,8 @@ header {
 }
 .nav-active a{
 	font-size: 18px;
+	font-family:  'BPG Nino Mtavruli'; 
+	text-align: center;
 	color:#5B139A;
 }
 .nav-a a:hover.nav-active{
@@ -82,7 +85,7 @@ header {
 }
 .contact {
 	height: 590px;
-	background-color: #F0EAF5;
+	background-color:  #f3eef7;
 }
 .map {
 	display: flex;
@@ -129,13 +132,16 @@ header {
 	flex-direction: column;
 }
 h1{
-	 font-size: 50px;
+	font-size: 50px;
+	 font-family: 'BPG Ingiri Arial';
     line-height: 1.2;
     width: 500px;
 }
 .discription {
 	width: 296px;
 	margin-top: 50px;
+	 font-family:BPG Ingiri Arial;
+	 font-size: 16px;
 	line-height: 1.2;
 }
 .topnav .search-container {
@@ -150,6 +156,7 @@ h1{
   height: 71px;
   width: 417px;
   font-size: 16px;
+   font-family: 'BPG Ingiri Arial';
   padding: 15px 70px;
   box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1);
   border:none;
@@ -193,7 +200,8 @@ h1{
     padding-top: 66px;
 }
 h2 {
-    font-size: 35px;
+    font-size: 36px;
+     font-family: 'BPG Ingiri Arial';
     padding: 58px 0 0 0;
     color: #3F2654;
 }

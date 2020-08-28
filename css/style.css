@@ -82,6 +82,7 @@ header {
 }
 .contact {
 	height: 590px;
+	background-color: #F0EAF5;
 }
 .map {
 	display: flex;

@@ -5,6 +5,9 @@ html,body{
 body {
 	padding: 0 0 5% 0;
 }
+
+
+/*header content*/
 header {
 	position: fixed;
 	z-index: 5;
@@ -39,7 +42,7 @@ header {
 }
 .nav-a a{
 	font-size: 18px;
-	font-family:  'BPG Nino Mtavruli'; 
+	font-family: BPG Nino Mtavruli; 
 	color:#A0A2B1 ;
 }
 .nav-a a:hover {
@@ -47,7 +50,7 @@ header {
 }
 .nav-active a{
 	font-size: 18px;
-	font-family:  'BPG Nino Mtavruli'; 
+	font-family:  BPG Nino Mtavruli; 
 	text-align: center;
 	color:#5B139A;
 }
@@ -66,6 +69,10 @@ header {
 	align-items: center;
 	cursor: pointer;
 }
+
+/*finished header elements*/
+
+/*here is footer */
 .footer{
 	display: flex;
 	background-color: #370761;
@@ -84,6 +91,9 @@ header {
 	margin-top: 15px;
 	margin-right: 20px;
 }
+/*that's all*/
+
+/*this is my contact-page*/
 .contact {
 	height: 590px;
 	background-color:  #f3eef7;
@@ -117,7 +127,7 @@ header {
 }
 
 
-/*main-page*/
+/* here is home-page sections*/
 .section {
 	position: relative;
     padding: 140px 0 250px 0;
@@ -224,3 +234,5 @@ h2 {
     font-family: "Helvetica-Light";
     color: #707070;
 }
+
+/*finished home-page*/

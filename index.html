@@ -28,7 +28,7 @@
 						<ul class="navigation">
 							<li class="nav-active"><a href="index.html">მთავარი</a></li>
 			                <li class="nav-a"><a href="shop.html">ტესტი</a></li>
-			                <li class="nav-a"><a href="index3.html">კონტაქტი</a></li>
+			                <li class="nav-a"><a href="contact.html">კონტაქტი</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -49,26 +49,32 @@
 			<div class="d-flex">
 				<div class="first-section">
 					<div class="main-title">
-						<h1>დაიწყე სწავლა testUp-თან ერთად</h1>
+						<h1>დაიწყე სწავლა Test<span class="up">Up</span>-თან ერთად</h1>
 						<p class="discription">ისწავლე front-end, backend, phyton,ios, and android დეველოპმენტი და გამოსცადე საკუთარი თავი…</p>
                     </div>
                     <div class="topnav">
                  	    <div class="search-container">
-						    <form action="/action_page.php">
+						    <form action="">
 						        <input type="text" placeholder="ძიება..." name="ძიება">
 						        <button type="submit"><i class="fa fa-search"></i></button>
 						    </form>
 					    </div>
-                    <div>
-                </div>
+
+					    <img class="main-img" src="img/main.svg">
+
+	                    <div class="buttons-container">
+						    <button id="btn-sign-in" class="button-signin">ავტორიზაცია</button>
+		                    <button id="btn-sign-up" class="button-signup">რეგისტრაცია</button>
+		                </div>
+		            </div>
+	            </div>
             </div>
         </div>
-        <div class="bg-img"></div>
     </section>
 
     <section class="category-section">
 		<div class="container">
-			<h2>კატეგორიები </h2>	
+			<h3>კატეგორიები </h3>	
 			<div class="categories">
 				<div class="box">
 					<img class="category-img"  src="img/html.svg" alt="html">
@@ -105,6 +111,42 @@
 		</div>
     </section>
 
+    <!-- Popups -->
+
+    <!-- Sign In popup -->
+    <div class="sign-in" id="sign-in-modal">
+		<div class="sign-in-modal-content">
+			<span class="close">&times;</span>
+			<form action="" class="form-container">
+				<h2>ავტორიზაცია</h2>
+				<label for="მომხმარებელი"><b>მომხმარებელი</b></label>
+				<input type="text" placeholder="ჩაწერეთ თქვენი სახელი" name="მომხმარებელი" required>
+				<!-- <label for="ელ-ფოსტა"><b>ელ-ფოსტა</b></label>
+				<input type="text" placeholder="ჩაწერეთ ელ-ფოსტა" name="ელ-ფოსტა" required> -->
+				<label for="psw"><b>პაროლი</b></label>
+				<input type="password" placeholder="ჩაწერეთ პაროლი" name="psw" required>
+				<button type="submit" class="btn">შესვლა</button>
+			</form>
+		</div>
+	</div>
+
+    <!-- Sign Up popup -->
+    <div class="sign-up" id="sign-up-modal">
+		<div class="sign-up-modal-content">
+			<span class="close">&times;</span>
+			<form action="" class="form-container">
+				<h2>რეგისტრაცია</h2>
+				<label for="მომხმარებელი"><b>მომხმარებელი</b></label>
+				<input type="text" placeholder="ჩაწერეთ თქვენი სახელი" name="მომხმარებელი" required>
+				<label for="ელ-ფოსტა"><b>ელ-ფოსტა</b></label>
+				<input type="text" placeholder="ჩაწერეთ ელ-ფოსტა" name="ელ-ფოსტა" required>
+				<label for="psw"><b>პაროლი</b></label>
+				<input type="password" placeholder="ჩაწერეთ პაროლი" name="psw" required>
+				<button type="submit" class="btn">შესვლა</button>
+			</form>
+		</div>
+	</div>
+
 	<footer class="footer">
 		<div class="container">
 			<div class="d-flex">
@@ -126,7 +168,8 @@
 		</div>
 	</footer>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> </script>
+	<script src="js/main.js"></script>
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> </script>
 
 </body>
 </html>

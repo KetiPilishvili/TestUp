@@ -510,3 +510,39 @@ h4 {
 	margin: 50px 86px;
 	background-color: #5B139A; 
 }
+
+
+/*profile*/
+.Contol-pannel{
+	height: 591px;
+	max-width: 370px;
+	padding-top: 110px;
+	width: 100%;
+	background-color: #1B2333;
+	display: flex;
+}
+.profile-part {
+	display: flex;
+	justify-content: space-between;
+}
+/*.img-space img{
+	display: flex;
+	justify-content: flex-start;
+}*/
+.insides {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 234px;
+	padding-top: 200px;
+}
+.components p{
+	float: right;
+}
+.components a {
+	float: left;
+}
+.profile-content {
+	color: #fff;
+}

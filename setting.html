@@ -9,6 +9,7 @@
   	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
 	<title>TestUp  -  სწავლების ინოვაციური პლატფორმა</title>
 	<link rel="shortcut icon" type="img/png" href="img/favicon.png">
@@ -27,7 +28,7 @@
 					<nav>
 						<ul class="navigation">
 							<li class="nav-a"><a href="index.html">მთავარი</a></li>
-			                <li class="nav-active"><a href="test.html">ტესტი</a></li>
+			                <li class="nav-a"><a href="test.html">ტესტი</a></li>
 			                <li class="nav-a"><a href="contact.html">კონტაქტი</a></li>
 						</ul>
 					</nav>
@@ -46,11 +47,11 @@
 
 	<div class="artboard">
 		<div class="profile-content">
-			<div claas="profile-space">
-				<div class="profile-img">
-					<img src="img/profile.png">
-					<p>სახელი</p>
-				</div>
+			<div class="profile-space">
+				<div class="user">
+		            <img id="user-image">
+		            <p id="name"></p>
+		        </div>
 
 				<div class="profile-info">
 					<div class="components">
@@ -106,6 +107,7 @@
 		</div>
 	</footer>
 
+	<script src="js/main2.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> </script>
 
 </body>

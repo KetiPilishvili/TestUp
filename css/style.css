@@ -1,3 +1,4 @@
+
 html, body{
 	width: 100%;
 	height:  100%;
@@ -679,12 +680,14 @@ h4 {
 	border:none;
 	margin-bottom:40px;
 	border-radius: 4px;
+	color: #707070;
 	font-size: 12px;
-	font-family: 'BPG Ingiri Arial';
+	font-family: "Helvetica-Light";
 }
 .setting-container label {
 	padding-bottom: 8px;
 	font-size: 14px;
+	color: #370761;
 	font-family: 'BPG Ingiri Arial';
 }
 .setting-board .setting-container {
@@ -693,6 +696,7 @@ h4 {
 }
 fieldset{
 	white-space: nowrap;
+	color: #707070;
 }
 .info-space2 .btn {
   background-color:#370761;

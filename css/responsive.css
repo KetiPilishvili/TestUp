@@ -1,0 +1,40 @@
+/*contact page*/
+@media (max-width: 734px) {
+  .map {
+    width: 500px;
+    height: 300px;
+ }
+}
+@media (max-width: 670px) {
+  .map {
+    width: 400px;
+    height: 250px;
+ }
+}
+@media (max-width: 515px) {
+  .map {
+    width: 350px;
+    height: 250px;
+ }
+}
+@media (max-width: 462px) {
+  .map {
+    padding-top: 30px;
+    width: 360px;
+    height: 250px;
+    position: relative;
+ }
+
+ .info{
+    display: none;
+ }
+}
+@media (max-width: 320px) {
+  .map {
+    width: 320px;
+    height: 200px;
+ }
+ .social-icons {
+    padding-top: 25px;
+ }
+}

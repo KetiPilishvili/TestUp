@@ -18,6 +18,19 @@ function showUserInfo(results) {
 
     $("#user-image").attr("src", avatar);
     $("#name").text(name);
+    $("#unput-email").val(results["email"]);
+    $("#user-age").val(results["dob"]["age"]);
+    $("#adress").val(results["location"]["street"]["name"]);
+    $("#phone").val(results["phone"]);
+    // console.log(results["phone"]);
+    $("#input-first-name").val(results["name"]["first"]);
+
+    if (results ["gender"] == "female"){
+        $("#female").prop("checked", true);
+    }
+    else { 
+        $("#male").prop("checked", true);
+    }
 
 }
 

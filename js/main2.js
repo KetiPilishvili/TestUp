@@ -1,3 +1,4 @@
+
 // for username
 // http მოთხოვნა მიმართავს სერვისს რომელიც რანდომულად აგენერირებს მომხმარებელს 
 $.ajax({
@@ -19,3 +20,5 @@ function showUserInfo(results) {
     $("#name").text(name);
 
 }
+
+

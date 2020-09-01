@@ -646,3 +646,61 @@ h4 {
 	color: #fff;
 	font-size: 20px;
 }
+
+
+/*setting*/
+
+.setting-board{
+    display: flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction: row;
+	height: 389px;
+	width: 685px;
+	margin-top: 50px;
+    margin-left: 125px;
+}
+.info-space2 {
+	height: 520px;
+	width: 70%;
+	background-color: #f3eef7;
+	display: flex;
+	flex-direction: column;
+}
+.setting-container {
+	flex-direction: column;
+	display: flex;
+}
+.setting-container .gender {
+	flex-direction: row-reverse;
+}
+.setting-container input{
+	padding: 10px;
+	border:none;
+	margin-bottom:40px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-family: 'BPG Ingiri Arial';
+}
+.setting-container label {
+	padding-bottom: 8px;
+	font-size: 14px;
+	font-family: 'BPG Ingiri Arial';
+}
+.setting-board .setting-container {
+	width: 257px;
+	margin-bottom:40px;
+}
+fieldset{
+	white-space: nowrap;
+}
+.info-space2 .btn {
+  background-color:#370761;
+  color: white;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  width: 251px;
+  border-radius: 4px;
+  margin:0 0 50px 300px;
+}

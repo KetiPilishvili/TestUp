@@ -9,6 +9,7 @@
   	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
 	<title>TestUp  -  სწავლების ინოვაციური პლატფორმა</title>
 	<link rel="shortcut icon" type="img/png" href="img/favicon.png">
@@ -43,37 +44,75 @@
 			</div>
 		</div>
 	</header>
-<div class="Contol-pannel">
-	<div class="profile-part">
-		<div class="img-space">
-		    <img class="img-space" src="img/profile.png" alt="profile">
+
+	<div class="artboard">
+		<div class="profile-content">
+			<div claas="profile-space">
+				<div class="user">
+		            <img id="user-image" style="width: 100px; height: 100px">
+		            <p id="name"></p>
+		        </div>
+
+				<div class="profile-info">
+					<div class="components-active">
+						<a class="profile-content" href="profile.html">
+							<i class="far fa-user"></i>
+							<p>პროფილი</p>
+						</a>
+					</div>
+
+
+					<div class="components">
+						<a class="profile-content" href="setting.html">
+							<i class="fas fa-cog"></i>
+							<p>პარამეტრები</p>
+						</a>
+					</div>
+
+					<div class="components">
+						<a class="profile-content" href="index.html">
+							<i class="fas fa-sign-out-alt"></i>
+							<p>გამოსვლა</p>
+						</a>
+					</div>
+
+				</div>
+				
+			</div>
 		</div>
 
-		<div class="insides">
-			<div class="components">
-				<a class="profile-content" href="">
-					<i class="far fa-user"></i>
-					<p>პროფილი</p>
-				</a>
-			</div>
-			<div class="components">
-				<a class="profile-content" href="">
-					<i class="fas fa-cog"></i>
-					<p>პარამეტრები</p>
-				</a>
-			</div>
-			<div class="components">
-				<a class="profile-content" href="">
-					<i class="fas fa-sign-out-alt"></i>
-					<p>გამოსვლა</p>
-				</a>
+		<div class="info-space">
+			<div class="info-title">
+			     <p class="space-title">ქეთევანის რეიტინგი:</p>
+			 </div>
+
+			<div class=" info-board">
+				<div class="board">
+					<div class="info-box">
+						<p class="numbers">521</p>
+						<p class="text-information">სწორი პასუხი</p>
+					</div>
+					<div class="info-box">
+						<p class="numbers">3</p>
+						<p class="text-information">კატეგორია</p>
+					</div>
+				</div>
+				<div class="board">
+					<div class="info-box">
+						<p class="numbers">35</p>
+						<p class="text-information">გამოტოვებული პასუხი</P>
+					</div>
+					<div class="info-box">
+						<p class="number">105</p>
+						<p class="text-information">უარყოფითი პასუხი</p>
+					</div>
+				</div>
+
+				
 			</div>
 		</div>
-			
 		
 	</div>
-	
-</div>
 
 <footer class="footer">
 		<div class="container">
@@ -97,6 +136,7 @@
 	</footer>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> </script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>

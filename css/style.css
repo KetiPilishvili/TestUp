@@ -301,7 +301,7 @@ h3 {
     transition: all ease 0.4s;
 }
 
-.name {
+.name2 {
     padding-right: 15px;
     font-size: 20px;
     font-family: "Helvetica-Light";
@@ -513,36 +513,131 @@ h4 {
 
 
 /*profile*/
-.Contol-pannel{
-	height: 591px;
-	max-width: 370px;
-	padding-top: 110px;
+.artboard {
+	height: 100%;
 	width: 100%;
-	background-color: #1B2333;
+	background-color: #f3eef7;
+	display: flex;
+	flex-direction: row;
+	padding-top: 70px;
+}
+.profile-content {
+	width: 30%;
+	background-color:#212A3E;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.info-space {
+	height: 520px;
+	width: 70%;
+	background-color: #f3eef7;
 	display: flex;
 }
-.profile-part {
+.space-title {
+	color: #707070;
+	font-family: 'BPG Nino Mtavruli';
+	font-size: 25px;
+	padding: 50px 0 0 120px;
+	white-space: nowrap;
+	height: 50px;
+}
+.info-box {
+	height: 150px;
+	width: 300px;
+	background-color: #E4C5FF;
+	border-radius: 4px;
+}
+.info-title {
+	height: 50px;
+	width: 0;
+}
+.info-board {
+	display: flex;
+	justify-content:flex-start;
+	align-items:flex-end;
+	flex-direction: column;
+	height: 389px;
+	width: 635px;
+	margin-top: 110px;
+    margin-left: 165px;
+
+}
+.board {
+	display: flex;
+	flex-direction: row;
+}
+.info-box:last-child {
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+.text-information {
+	color: #707070;
+	font-size: 20px;
+	font-family: 'BPG Ingiri Arial';
+	text-align: center;
+}
+.numbers {
+	color: #207A5B;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+.number{
+	color: #7A1313;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+.profile-space{
 	display: flex;
 	justify-content: space-between;
 }
-/*.img-space img{
+.user{
 	display: flex;
-	justify-content: flex-start;
-}*/
-.insides {
-	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	height: 234px;
-	padding-top: 200px;
+	margin-top: 40px;
 }
-.components p{
-	float: right;
+.profile-info{
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+	height: 150px;
+	width: 232px;
 }
-.components a {
-	float: left;
+.components {
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
-.profile-content {
+.profile-info p{
 	color: #fff;
+	font-size: 16px;
+	 font-family: 'BPG Ingiri Arial';
+	 margin-left: 20px;
+}
+.profile-info a{
+	color: #fff;
+}
+.components-active{
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+	border-bottom: 1px solid #707070;
+	padding-bottom: 10px
+}
+.profile-img {
+	border-bottom: 1px solid #707070;
+    padding-bottom: 20px;
+}
+.profile-img img {
+	padding-bottom: 10px
+}
+.profile-img p{
+	color: #fff;
+	font-size: 20px;
 }

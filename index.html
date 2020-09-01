@@ -10,6 +10,7 @@
   	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
 	<title>TestUp  -  სწავლების ინოვაციური პლატფორმა</title>
 	<link rel="shortcut icon" type="img/png" href="img/favicon.png">
@@ -55,13 +56,13 @@
                     </div>
                     <div class="topnav">
                  	    <div class="search-container">
-						    <form action="">
+						    <form >
 						        <input type="text" placeholder="ძიება..." name="ძიება">
 						        <button type="submit"><i class="fa fa-search"></i></button>
 						    </form>
 					    </div>
 
-					    <img class="main-img" src="img/main.svg">
+					    <img class="main-img" src="img/main.svg" alt="development">
 
 	                    <div class="buttons-container">
 						    <button id="btn-sign-in" class="button-signin">ავტორიზაცია</button>
@@ -130,13 +131,11 @@
     <div class="sign-in" id="sign-in-modal">
 		<div class="sign-in-modal-content">
 			<span class="close">&times;</span>
-			<form action="" class="form-container">
+			<form  class="form-container">
 				<h2>ავტორიზაცია</h2>
-				<label for="მომხმარებელი"><b>მომხმარებელი</b></label>
+				<label ><b>მომხმარებელი</b></label>
 				<input type="text" placeholder="ჩაწერეთ თქვენი სახელი" name="მომხმარებელი" required>
-				<!-- <label for="ელ-ფოსტა"><b>ელ-ფოსტა</b></label>
-				<input type="text" placeholder="ჩაწერეთ ელ-ფოსტა" name="ელ-ფოსტა" required> -->
-				<label for="psw"><b>პაროლი</b></label>
+				<label><b>პაროლი</b></label>
 				<input type="password" placeholder="ჩაწერეთ პაროლი" name="psw" required>
 				<button type="submit" class="btn">შესვლა</button>
 			</form>
@@ -147,13 +146,13 @@
     <div class="sign-up" id="sign-up-modal">
 		<div class="sign-up-modal-content">
 			<span class="close">&times;</span>
-			<form action="" class="form-container">
+			<form  class="form-container">
 				<h2>რეგისტრაცია</h2>
-				<label for="მომხმარებელი"><b>მომხმარებელი</b></label>
+				<label ><b>მომხმარებელი</b></label>
 				<input type="text" placeholder="ჩაწერეთ თქვენი სახელი" name="მომხმარებელი" required>
-				<label for="ელ-ფოსტა"><b>ელ-ფოსტა</b></label>
+				<label ><b>ელ-ფოსტა</b></label>
 				<input type="text" placeholder="ჩაწერეთ ელ-ფოსტა" name="ელ-ფოსტა" required>
-				<label for="psw"><b>პაროლი</b></label>
+				<label ><b>პაროლი</b></label>
 				<input type="password" placeholder="ჩაწერეთ პაროლი" name="psw" required>
 				<button type="submit" class="btn">შესვლა</button>
 			</form>

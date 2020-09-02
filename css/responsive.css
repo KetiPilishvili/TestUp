@@ -1,40 +1,111 @@
-/*contact page*/
-@media (max-width: 734px) {
+/*header*/
+@media (max-width: 900px) {
   .map {
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
+    margin:0 50px 120px 0;
+ }
+ .info-icons {
+  margin-left: 40px;
  }
 }
-@media (max-width: 670px) {
+@media (max-width: 850px){
+  .navigation{
+    display: none;
+  }
+  .burger-icon{
+    margin-left: 400px;
+  }
+  .burger{
+    display: block;
+  }
+}
+@media (max-width: 620px){
   .map {
     width: 400px;
-    height: 250px;
+    height: 350px;
+    margin:30px 30px 140px 0;
  }
+ .burger-icon{
+    margin-left: 350px;
+  }
 }
-@media (max-width: 515px) {
+@media (max-width: 570px){
   .map {
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    margin: 50px 20px 170px 10px;
  }
+ .info-icons {
+  margin-right: 10px;
+ }
+ .burger-icon{
+    margin-left: 320px;
+  }
 }
-@media (max-width: 462px) {
-  .map {
-    padding-top: 30px;
-    width: 360px;
-    height: 250px;
+@media (max-width: 491px){
+  .info-icons{
+    position: absolute;
+  }
+  .info p{
+    display: none;
+  }
+   .map {
+    width: 340px;
+    height: 300px;
+    margin: 50px 0 170px 80px;
+ }
+  .contact{
     position: relative;
+  }
+  .burger-icon{
+    margin-left: 200px;
+  }
+}
+@media (max-width: 424px){
+  .map {
+    width: 300px;
+    height: 340px;
+    margin: 50px 0 130px 80px;
  }
 
- .info{
-    display: none;
- }
+  .burger-icon{
+    margin-left: 200px;
+  }
 }
-@media (max-width: 320px) {
+@media (max-width: 424px){
   .map {
-    width: 320px;
-    height: 200px;
+    width: 250px;
+    height: 340px;
+    margin: 50px 0 130px 100px;
  }
- .social-icons {
-    padding-top: 25px;
+  .info-icons {
+  margin-left: 20px;
  }
+  .burger-icon{
+    margin-left: 160px;
+  }
+}
+@media (max-width: 360px){
+  .map {
+    width: 200px;
+    height: 340px;
+    margin: 50px 0 130px 140px;
+ }
+  .info-icons {
+  margin-left: 10px;
+ }
+  .burger-icon{
+    margin-left: 120px;
+  }
+}
+@media (max-width: 342px){
+  .map {
+    width: 150px;
+    height: 340px;
+    margin: 50px 0 130px 170px;
+ }
+  .info-icons {
+  margin-left: 5px;
+ } 
 }

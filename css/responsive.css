@@ -1,4 +1,17 @@
 /*contact*/
+@media(max-width: 1024px){
+  .contact{
+    height: 100%;
+  }
+  .contact-content{
+    padding-bottom: 0;
+  }
+}
+@media(max-width: 900px){
+  .contact{
+    height: 95%;
+  }
+}
 @media (max-width: 900px) {
   .map {
     width: 450px;
@@ -144,6 +157,16 @@
   .info-icons {
   margin-left: 5px;
  } 
+}
+@media (max-width: 665px){
+  .social{
+    margin-left: 35%;
+  }
+}
+@media (max-width: 450px){
+  .social{
+    margin-left: 25%;
+  }
 }
 
 /*responsive for test page*/

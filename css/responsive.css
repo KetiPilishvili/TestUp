@@ -1,8 +1,6 @@
 /*contact*/
-@media(max-width: 1024px){
-  .contact{
-    height: 100%;
-  }
+/*@media(max-width: 1024px){
+
   .contact-content{
     padding-bottom: 0;
   }
@@ -11,12 +9,12 @@
   .contact{
     height: 95%;
   }
-}
+}*/
 @media (max-width: 900px) {
   .map {
     width: 450px;
     height: 400px;
-    margin:0 50px 120px 0;
+    margin:0 50px 20px 0;
  }
  .info-icons {
   margin-left: 40px;
@@ -92,14 +90,14 @@
   .map {
     width: 400px;
     height: 350px;
-    margin:30px 30px 140px 0;
+    margin:30px 30px 40px 0;
  }
 }
 @media (max-width: 570px){
   .map {
     width: 300px;
     height: 300px;
-    margin: 50px 20px 170px 10px;
+    margin: 50px 20px 70px 10px;
  }
  .info-icons {
   margin-right: 10px;
@@ -115,7 +113,7 @@
    .map {
     width: 340px;
     height: 300px;
-    margin: 50px 0 170px 80px;
+    margin: 50px 0 70px 80px;
  }
   .contact{
     position: relative;
@@ -125,14 +123,14 @@
   .map {
     width: 300px;
     height: 340px;
-    margin: 50px 0 130px 80px;
+    margin: 50px 0 30px 80px;
  }
 }
 @media (max-width: 424px){
   .map {
     width: 250px;
     height: 340px;
-    margin: 50px 0 130px 100px;
+    margin: 50px 0 30px 100px;
  }
   .info-icons {
   margin-left: 20px;
@@ -142,7 +140,7 @@
   .map {
     width: 200px;
     height: 340px;
-    margin: 50px 0 130px 140px;
+    margin: 50px 0 30px 140px;
  }
   .info-icons {
   margin-left: 10px;
@@ -152,7 +150,7 @@
   .map {
     width: 150px;
     height: 340px;
-    margin: 50px 0 130px 170px;
+    margin: 50px 0 30px 170px;
  }
   .info-icons {
   margin-left: 5px;
@@ -170,12 +168,14 @@
 }
 
 /*responsive for test page*/
-@media (max-width: 995px){
-  .bullet{
-  width: 300px;
+@media (max-width: 997px){
+  .container-bull{
+     padding-right: 0px;
   }
-  .bullet-active{
-  width: 300px;
+}
+@media(max-width: 888px){
+  .container-bull{
+    padding-left: 50px;
   }
 }
 @media (max-width: 945px){
@@ -187,7 +187,7 @@
     margin:0;
   }
 }
-@media (max-width: 887px) {
+/*@media (max-width: 887px) {
   .bullet{
   width: 250px;
   }
@@ -195,84 +195,98 @@
   width: 250px;
   }
 }
-@media (max-width: 775px){
-/*  .test-container {
-    flex-direction: column;
-    padding-left: 40px;
-  }
-  .test-container p{
-    margin:0;
-  }*/
+
  .bullet {
   margin: 50px 70px ;
  }
  .bullet-active {
   margin: 50px 70px ;
  }
-}
-@media (max-width: 740px){
-
-  .bullet{
-     margin-left: 40px;
-    margin-right: 30px;
-  }
-  .bullet-active{
-    margin-left: 40px;
-    margin-right: 30px;
-  }
-}
+}*/
 @media (max-width: 710px){
    .test-container {
     display: none;
   }
-  .question-space{
+  /*.question-space{
     margin-left: 40px;
-  }
+  }*/
 }
-@media (max-width: 630px){
+/*@media (max-width: 630px){
   .bullet{
     margin:20px;
   }
   .bullet-active{
     margin:20px;
   }
-}
-@media (max-width: 582px){
-  .test {
-    width: 100%;
+}*/
+@media(max-width: 663px){
+   .container-bull{
+    padding-left: 0;
   }
+}
+@media(max-width: 616px){
+  .answer-space{
+    padding: 10px 0 30px 0;
+  }
+}
+@media (max-width: 609px){
   .bullet{
-    margin:15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .bullet-active{
-    margin:0 15px;
+   margin-top: 20px;
+    margin-bottom: 0;
   }
   .answer-container{
     flex-direction: column;
   }
   .answer-space{
-    padding-bottom: 300px;
     padding-left: 70px;
   }
 }
+
 @media (max-width: 500px){
   h4 {
     font-size: 25px;
   }
   .question-space img{
     width: 250px;
-    margin-left: 50px;
+  }
+}
+@media(max-width: 440px){
+   .answer-space{
+    padding-left: 50px;
   }
 }
 @media (max-width: 400px){
   .answer-space{
-    padding-left: 50px;
-    padding-bottom: 200px;
-  }
-  .question-space {
-    width: 200px;
+    padding-left: 30px;
   }
 }
+@media(max-width: 414px){
+  .answer-space{
+    padding:40px 0 70px 40px;
+  }
+}
+@media(max-width: 382px){
+   .answer-space{
+    padding:10px 0 0 20px;
+  }
+}
+@media(max-width: 375px){
+  .answer-space{
+    padding: 30px 0 50px 10px;
+  }
+}
+  @media(max-width: 366px){
+    .bullet{
+      margin-left: 0;
+    }
+     .bullet-active{
+      margin-left: 0;
+    }
+  }
 @media(max-width: 340px){
   .question-space{
     margin-top: 20px
@@ -281,6 +295,12 @@
     font-size: 20px;
   }
   .answer-space{
-    padding:0 0 250px 20px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+  }
+}
+@media(max-width: 320px){
+  .answer-space{
+    padding:0 0 90px 10px;
   }
 }

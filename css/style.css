@@ -301,6 +301,12 @@ h1{
     flex-wrap: wrap;
     padding-top: 66px;
 }
+.categories2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 66px;
+}
 h3 {
     font-size: 36px;
      font-family: 'BPG Ingiri Arial';

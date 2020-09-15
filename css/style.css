@@ -609,7 +609,7 @@ h4 {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	margin: 90px 0 30px 70px;
+	margin: 120px 0 120px 70px;
 }
 .question-space img{
 	margin-top: 30px;
@@ -641,13 +641,13 @@ h4 {
 	padding-left: 150px;
     padding-right: 100px;
 }
-.bullet {
+/*.bullet {
 	background-color:#FFFFFF;
 	-webkit-box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1);
 	        box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1);
 	border-radius: 4px;
 	margin: 50px 20px 50px 20px ;
-}
+}*/
 .answers {
 	font-size: 14px;
 	color: #370761;
@@ -671,6 +671,7 @@ h4 {
 	        box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1);
 	border-radius: 4px;
 	margin: 50px 20px 50px 20px ;
+	width: 300px;
 }
 
 
@@ -1069,12 +1070,12 @@ fieldset{
 	        animation-timing-function: unset;
 }
 
-.bullet-active:hover  {
+/*.bullet-active:hover  {
 	background-color: #370761;
-}
-.answer-active:hover{
+}*/
+/*.answer-active:hover{
 	color: #fff;
-}
+}*/
  @-webkit-keyframes shadow-pulse{
  	0% {
     -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
